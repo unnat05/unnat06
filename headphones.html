@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: darkseagreen;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            
+            screens: {
+                'sm': '567px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '768px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1024px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+            extend: {
+              colors: {
+                'ujjwal': '#00e6e6',
+                'white': '#ffffff',
+                'purple': '#3f3cbb',
+                'midnight': '#121063',
+                'metal': '#565584',
+                'tahiti': '#3ab7bf',
+                'silver': '#ecebff',
+                'bubble-gum': '#ff77e9',
+                'bermuda': '#78dcca',
+              },
+              screens :{
+                'xs':{'min':'300px','max':'567px'}
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="max-w-[1320px] mx-auto">
+        <h1 class="text-4xl text-center py-5">Headphones</h1>
+    </div>
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] ">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183050.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SONY</h3>
+            <p class="py-2 ">5000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183159.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">HUNTERSPIDER</h3>
+            <p class="py-2 ">7000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183246.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SONY B12</h3>
+            <p class="py-2 ">8000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183348.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">MIVI</h3>
+            <p class="py-2 ">5500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183505.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">APPLE</h3>
+            <p class="py-2 ">12000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183749.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">MARCHEL</h3>
+            <p class="py-2 ">3000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 184438.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">BOAT</h3>
+            <p class="py-2 ">2500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 184243.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AIRPODS PRO</h3>
+            <p class="py-2 ">15000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 184205.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">E11C</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183952.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AIRPODE 312</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183900.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">LENOVO</h3>
+            <p class="py-2 ">3000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 183823.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">BOAT</h3>
+            <p class="py-2 ">2500</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            
+            screens: {
+                'sm': '567px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '768px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1024px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+            extend: {
+              colors: {
+                'ujjwal': '#00e6e6',
+                'white': '#ffffff',
+                'purple': '#3f3cbb',
+                'midnight': '#121063',
+                'metal': '#565584',
+                'tahiti': '#3ab7bf',
+                'silver': '#ecebff',
+                'bubble-gum': '#ff77e9',
+                'bermuda': '#78dcca',
+              },
+              screens :{
+                'xs':{'min':'300px','max':'567px'}
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="max-w-[1320px] mx-auto">
+        <h1 class="text-4xl text-center py-5">BACKPACKS</h1>
+    </div>
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] ">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190358.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SAFARI</h3>
+            <p class="py-2 ">1000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190437.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">VIP</h3>
+            <p class="py-2 ">1200</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190453.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SKYBAGS</h3>
+            <p class="py-2 ">800</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190604.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ARISTROCRAT</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190627.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SONNET</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190702.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SAFARI</h3>
+            <p class="py-2 ">1400</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190851.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">VIP</h3>
+            <p class="py-2 ">800</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190917.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AMIRICAN TURISTER</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 190938.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ARCTIC FOX</h3>
+            <p class="py-2 ">2500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 191053.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">POLO</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 191115.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SONNET</h3>
+            <p class="py-2 ">3000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-26 191144.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">Gucci</h3>
+            <p class="py-2 ">2500</p>
+        </div>
+    </div>
+</body>
+</html>

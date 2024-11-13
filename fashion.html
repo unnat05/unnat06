@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            
+            screens: {
+                'sm': '567px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '768px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1024px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+            extend: {
+              colors: {
+                'ujjwal': '#00e6e6',
+                'white': '#ffffff',
+                'purple': '#3f3cbb',
+                'midnight': '#121063',
+                'metal': '#565584',
+                'tahiti': '#3ab7bf',
+                'silver': '#ecebff',
+                'bubble-gum': '#ff77e9',
+                'bermuda': '#78dcca',
+              },
+              screens :{
+                'xs':{'min':'300px','max':'567px'}
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="max-w-[1320px] mx-auto">
+        <h1 class="text-4xl text-center py-5">Fashion</h1>
+    </div>
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] ">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 191234.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">BROAD COLLAR OVERCOAT</h3>
+            <p class="py-2 ">7000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 191140.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">DOUBLE CHESTED OVERCOAT</h3>
+            <p class="py-2 ">6500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 191115.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">VYKING COLLAR OVERCOAT</h3>
+            <p class="py-2 ">8000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190608.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">NIKE RETRO 4</h3>
+            <p class="py-2 ">35000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190515.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">NIKE AIR JORDAN</h3>
+            <p class="py-2 ">45000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190458.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">NIKE RUNNER PRO</h3>
+            <p class="py-2 ">30000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190420.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">JEANS</h3>
+            <p class="py-2 ">1200</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190400.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">BEIGE CARGO</h3>
+            <p class="py-2 ">2000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190342.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">TROUSERS</h3>
+            <p class="py-2 ">1700</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190243.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">OVER SIZED SHIRT</h3>
+            <p class="py-2 ">2500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190220.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">DOUBLE BUTTON SHIRT</h3>
+            <p class="py-2 ">1000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 190203.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AMERICAN COLLAR SHIRT</h3>
+            <p class="py-2 ">800</p>
+        </div>
+    </div>
+</body>
+</html>

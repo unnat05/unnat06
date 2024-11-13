@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            
+            screens: {
+                'sm': '567px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '768px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1024px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+            extend: {
+              colors: {
+                'ujjwal': '#00e6e6',
+                'white': '#ffffff',
+                'purple': '#3f3cbb',
+                'midnight': '#121063',
+                'metal': '#565584',
+                'tahiti': '#3ab7bf',
+                'silver': '#ecebff',
+                'bubble-gum': '#ff77e9',
+                'bermuda': '#78dcca',
+              },
+              screens :{
+                'xs':{'min':'300px','max':'567px'}
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="max-w-[1320px] mx-auto">
+        <h1 class="text-4xl text-center py-5">LAPTOPS</h1>
+    </div>
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] ">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132101.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">DELL</h3>
+            <p class="py-2 ">Rs 45000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132123.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">LENOVO</h3>
+            <p class="py-2 ">Rs 30000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132138.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ASUS VIVOBOOK</h3>
+            <p class="py-2 ">Rs 50000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132222.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ASUS VIVOBOOK 16</h3>
+            <p class="py-2 ">Rs 55000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132243.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ACER ASPIRE LITE</h3>
+            <p class="py-2 ">Rs 40000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132258.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">BLADE PRO</h3>
+            <p class="py-2 ">Rs 60000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132556.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">MACBOOK PRO</h3>
+            <p class="py-2 ">Rs 85000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132535.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            <h3 class="py-2 text-2xl">MACBOOK AIR</h3>
+            <p class="py-2 ">Rs 80000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132452.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            <h3 class="py-2 text-2xl">ACER GAMING</h3>
+            <p class="py-2 ">Rs 65000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132443.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            <h3 class="py-2 text-2xl">VICTUS</h3>
+            <p class="py-2 ">Rs 60000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132429.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">VICTUS PRO</h3>
+            <p class="py-2 ">Rs 55000</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-10-21 132322.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ACER ASPIRE PRO</h3>
+            <p class="py-2 ">Rs 60000</p>
+        </div>
+
+    </div>
+</body>
+</html>

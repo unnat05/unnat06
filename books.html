@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             background-color: antiquewhite;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            
+            screens: {
+                'sm': '567px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '768px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1024px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+            extend: {
+              colors: {
+                'ujjwal': '#00e6e6',
+                'white': '#ffffff',
+                'purple': '#3f3cbb',
+                'midnight': '#121063',
+                'metal': '#565584',
+                'tahiti': '#3ab7bf',
+                'silver': '#ecebff',
+                'bubble-gum': '#ff77e9',
+                'bermuda': '#78dcca',
+              },
+              screens :{
+                'xs':{'min':'300px','max':'567px'}
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="max-w-[1320px] mx-auto">
+        <h1 class="text-4xl text-center py-5">BOOKS</h1>
+    </div>
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px] ">
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145159.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">Foreign Policy of India</h3>
+            <p class="py-2 ">250</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145144.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">TEMOIGNAGES SANS FRONTIERS</h3>
+            <p class="py-2 ">500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145118.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">STAURT WOODS</h3>
+            <p class="py-2 ">300</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145050.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SCOTT BLADE</h3>
+            <p class="py-2 ">400</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145029.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">FOREIGN BODY</h3>
+            <p class="py-2 ">450</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 145011.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">STEPHEN KING</h3>
+            <p class="py-2 ">350</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144923.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">SLOW BURN</h3>
+            <p class="py-2 ">400</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144909.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AMERICA OFFLINE</h3>
+            <p class="py-2 ">500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144852.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">ZERO DAY</h3>
+            <p class="py-2 ">300</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144725.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">AGHORI</h3>
+            <p class="py-2 ">450</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144611.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">RICH DAD POOR DAD</h3>
+            <p class="py-2 ">500</p>
+        </div>
+        <div class="text-center shadow-lg rounded">
+            <div class="overflow-hidden"><img src="Screenshot 2024-11-04 144324.png" alt="" class="hover:scale-125 duration-1000  w-full h-full object-cover"></div>
+            
+            <h3 class="py-2 text-2xl">HOUSE OF NAMES</h3>
+            <p class="py-2 ">450</p>
+        </div>
+    </div>
+</body>
+</html>
